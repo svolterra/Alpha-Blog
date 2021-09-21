@@ -1,0 +1,47 @@
+@import "bootstrap";
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 100px;
+}
+
+.card {
+  background-image: asset-url("loverna-journey-JtlYforRROg-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+}
+
+#home-card-body {
+  position: center;
+  margin-top: 55px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: rgba(245, 222, 179, 0.38);
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
