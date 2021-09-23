@@ -1,4 +1,6 @@
 @import "bootstrap";
+
+//Home page
 .navbar {
   background-color: black !important;
 }
@@ -19,7 +21,7 @@
   margin-top: 100px;
 }
 
-.card {
+#home-body {
   background-image: asset-url("loverna-journey-JtlYforRROg-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +31,7 @@
 
 #home-card-body {
   position: center;
-  margin-top: 55px;
+  margin-top: 60px;
 }
 
 html,
@@ -45,3 +47,5 @@ body {
 #sticky-footer {
   flex-shrink: none;
 }
+
+//Articles page
