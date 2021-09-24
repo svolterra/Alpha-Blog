@@ -48,4 +48,53 @@ body {
   flex-shrink: none;
 }
 
-//Articles page
+//About page
+#about-container {
+  margin-top: 100px;
+  height: 300px;
+}
+
+#about-body {
+  background-image: asset-url("rey-seven-_nm_mZ4Cs2I-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 530px;
+}
+
+#about-card-body {
+  position: center;
+  margin-top: 60px;
+}
+
+#home-button {
+  margin-left: 39rem;
+  margin-right: -50px;
+  margin-top: 20px;
+  margin-bottom: -55px;
+}
+
+
+//Edit and Create an Article
+#update-button {
+  margin-left: 25px;
+  margin-right: -75px;
+}
+
+#back-button {
+  margin-left: 39rem;
+  margin-right: -50px;
+  margin-top: 20px;
+  margin-bottom: -55px;
+}
+
+#submit-form {
+  margin-left: 5em;
+  margin-right: -15rem;
+  background-color: rgba(249, 213, 222, 0.35);
+}
+
+#form-labels {
+  font-size: 17px;
+  margin-left: 5px;
+}

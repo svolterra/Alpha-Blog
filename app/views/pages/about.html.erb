@@ -1,4 +1,16 @@
-<h1> This is the About page</h1>
-
-<%= link_to 'Articles listing', articles_path %> |
-<%= link_to 'Home page', root_path %>
+<div class="container" id="about-container">
+  <div class="card text-center text-white" id="about-body" style="width: 80rem; height: 25rem;">
+    <div class="card-body" id="about-card-body">
+      <h5 class="display-5">The About Page</h5>
+      <hr class="my-4">
+      <p class="lead">Welcome to the Alpha Blog! This blog was created following the tutorials on Mashrur Hossain's
+        "The Complete Ruby on Rails Developer Course", and utilizes Ruby on Rails, Bootstrap, HTML, and CSS! On this
+        blog you can create new articles, view the articles you have created, update articles, and even delete
+        articles if desired. Hope you enjoy this blog with a little freestyle.</p>
+      </div>
+    </div>
+  </div>
+  <div id="home-button">
+  <a href="#"><%= link_to "Home", root_path, class:"btn btn-outline-dark mt-3"%></a>
+  </div>
+</div>
