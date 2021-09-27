@@ -11,10 +11,10 @@
           <div class="card-body">
             <h5 class="card-title"><%= link_to article.title, article_path(article), class:"text-dark bg-white"%></h5>
             <p class="card-text"><%= truncate(article.description, length:50) %></p>
-            <a href="#"><%= link_to 'View', article_path(article), class:"btn btn-outline-dark" %></a>
+            <a href="#"><%= link_to 'View', article_path(article), class:"btn btn-outline-info" %></a>
             <a href="#"><%= link_to 'Edit', edit_article_path(article),
                                     class:"btn btn-outline-dark"%></a>
-            <a href="#"><%= link_to 'Destroy', article, method: :delete, class:"btn btn-outline-dark",
+            <a href="#"><%= link_to 'Delete', article, method: :delete, class:"btn btn-outline-danger",
                                     data: { confirm: 'Are you sure?' }%></a>
           </div>
           <div class="card-footer text-muted color-pink">
