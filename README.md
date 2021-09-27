@@ -1,7 +1,7 @@
 #  📚 The Alpha Blog 📚
 
 ---
-##About ✨
+## About ✨
 
 ---
 
