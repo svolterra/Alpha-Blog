@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root 'pages#home' #home action in pages controller
   #get request to the about page from the about action in the page controller
   get 'about', to: 'pages#about'
+  get 'signup', to: 'users#new'
+  resources :users, except: [:new]
 end
