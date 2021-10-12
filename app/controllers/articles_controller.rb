@@ -1,18 +1,18 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: %i[ show edit update destroy ]
 
-  # GET /articles or /articles.json
-  def index
-    @articles = Article.all
+  # GET /articles/new
+  def new
+    @article = Article.new
   end
 
   # GET /articles/1 or /articles/1.json
   def show
   end
 
-  # GET /articles/new
-  def new
-    @article = Article.new
+  # GET /articles or /articles.json
+  def index
+    @articles = Article.paginate(page: params[:page], per_page: 5)
   end
 
   # GET /articles/1/edit
